@@ -1,0 +1,10 @@
+# Node
+node_modules/
+.env
+
+# Expo
+app/ .expo/
+app/node_modules/
+
+# OS
+.DS_Store
