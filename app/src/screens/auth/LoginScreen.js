@@ -52,7 +52,7 @@ export default function LoginScreen({ navigation }) {
         value={password}
         onChangeText={setPassword}
         secureTextEntry
-      />
+      />   
 
       <TouchableOpacity
         style={styles.button}
@@ -66,7 +66,7 @@ export default function LoginScreen({ navigation }) {
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => navigation.navigate('Register')}>
-        <Text style={styles.link}>Pas de compte ? S'inscrire</Text>
+        <Text style={styles.link}>Pas de compte ?  </Text>
       </TouchableOpacity>
     </View>
   );
