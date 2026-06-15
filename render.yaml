@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: artmatch-api
+    env: node
+    rootDir: api
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
